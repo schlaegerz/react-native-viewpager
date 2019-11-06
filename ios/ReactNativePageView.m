@@ -480,9 +480,9 @@ willTransitionToViewControllers:
                                                             70))];
     pageControl.numberOfPages = _childrenViewControllers.count;
     pageControl.currentPage = _initialPage;
-    pageControl.tintColor = UIColor.blackColor;
-    pageControl.pageIndicatorTintColor = UIColor.whiteColor;
-    pageControl.currentPageIndicatorTintColor = UIColor.blackColor;
+    pageControl.tintColor = UIColor.whiteColor;
+    pageControl.pageIndicatorTintColor = UIColor.grayColor;
+    pageControl.currentPageIndicatorTintColor = UIColor.whiteColor;
     [pageControl addTarget:self
                     action:@selector(pageControlValueChanged:)
           forControlEvents:UIControlEventValueChanged];
